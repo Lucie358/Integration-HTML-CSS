@@ -1,0 +1,177 @@
+body {
+    background-color: #EFEEEB;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    height: 100vh;
+    position: relative;
+    font-family: 'WeDrive';
+    box-sizing: border-box;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #776B6B;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Drive';
+    padding: 10px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #635756;
+
+}
+
+section {
+
+    margin: auto;
+    width: 900px;
+}
+
+.article-image {
+    width: 400px;
+    align-self: center;
+}
+
+.categorie {
+    display: flex;
+}
+
+.categorie p {
+    padding-left: 10px;
+}
+
+article {
+    display: flex;
+    
+    background-color: rgb(248, 248, 248);
+    box-shadow: 3px -2px 6px 1px rgba(158, 158, 158, 0.267);
+}
+
+ div.triangle:nth-of-type(odd){
+    background-image: url("../images/pink-triangle.png");
+    background-repeat: repeat-x;
+    height:50px;
+    width: 895px;
+}
+div.triangle:nth-of-type(even){
+    background-image: url("../images/blue-triangle.png");
+    background-repeat: repeat-x;
+    height:50px;
+    width: 895px;
+} 
+
+h1 {
+    color: #5A4A4A;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Drive';
+    font-weight: bold;
+}
+
+time {
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+
+.article-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.logo-reseau {
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.button-nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-nav-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.button-nav-link {
+    background-color: #A49C9A;
+    padding: 10px 15px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button-nav-link:hover {
+    background-color: #5A4A4A;
+}
+
+
+.mention-contact {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(73, 73, 73);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.mention-legales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav__footer {
+    display: flex;
+
+}
+
+.nav-item__footer {
+    margin-right: 20px;
+}
+
+.nav-link__footer {
+    text-decoration: none;
+    color: rgb(122, 118, 117);
+}
+
+.footer-article {
+    display: flex;
+    justify-content: space-between;
+
+}
+.category {
+    background-color:rgba(209, 209, 207, 0.281);
+    align-self: center;
+    padding: 7px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
